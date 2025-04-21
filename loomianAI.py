@@ -2,7 +2,6 @@ import torch
 import pickle
 from torch import nn
 
-# First, define your model class (must match original architecture)
 class LoomianPredictor(nn.Module):
     def __init__(self, vocab_size, rank_size, embedding_dim=128, hidden_dim=256):
         super().__init__()
